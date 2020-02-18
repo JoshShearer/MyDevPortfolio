@@ -58,6 +58,10 @@ export default function ProfilePage(props) {
         brand="Josh Shearer"
         rightLinks={<HeaderLinks />}
         fixed
+        changeColorOnScroll={{
+          height: 400,
+          color: "black"
+        }}
         {...rest}
       />
       <Parallax filter image={require("assets/img/RioEvening.jpg")} />

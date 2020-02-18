@@ -22,10 +22,7 @@ export default function WorkSection() {
         <GridItem cs={12} sm={12} md={8}>
           <h2 className={classes.title}>Work with me</h2>
           <h4 className={classes.description}>
-            Divide details about your product or agency work into parts. Write a
-            few lines about each one and contact us about any further
-            collaboration. We will responde get back to you in a couple of
-            hours.
+            If you would like more information please enter your contact information below and we will get back to you within 24 hours.
           </h4>
           <form>
             <GridContainer>

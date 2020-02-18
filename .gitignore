@@ -66,3 +66,6 @@ node_modules/
 
 #assets folder
 /assets/*
+
+# Local Netlify folder
+.netlify

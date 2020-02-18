@@ -57,13 +57,12 @@ export default function Components(props) {
           <div className={classes.container}>
             <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={8}>
-                <h2>Completed with examples</h2>
+                <h2>A passion for challenging projects</h2>
                 <h4>
-                  The kit comes with three pre-built pages to help you get
-                  started faster. You can change the text and images and you
-                  {"'"}re good to go. More importantly, looking at them will
-                  give you a picture of what you can build with this powerful
-                  kit.
+                  Welcome. Check out some of the projects that I am working on.
+                  I enjoy web development and machine learning. In my free
+                  time I like to invest and automate the process of decision
+                  making. Click below to learn more.
                 </h4>
               </GridItem>
             </GridContainer>

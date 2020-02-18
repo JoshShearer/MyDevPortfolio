@@ -16,23 +16,16 @@ import GridItem from "components/Grid/GridItem.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import NavPills from "components/NavPills/NavPills.js";
 import Parallax from "components/Parallax/Parallax.js";
-// import MyCarousel from "components/Carousel/Carousel.js";
 import Quote from "components/Typography/Quote.js";
-import { MyPhotos } from "./MyPhotos";
+
 import profile from "assets/img/faces/Josh.png";
 
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 import { Motorcycle } from "@material-ui/icons";
 
 const useStyles = makeStyles(styles);
-const photoData = MyPhotos;
 
-const getPhotos = photoData => {
-  const images = photoData.photos.map(images => images.src);
-  // const carouselImages = images.map((image)=> )
-};
 export default function ProfilePage(props) {
-  // const Generate
   const classes = useStyles();
   const { ...rest } = props;
   const imageClasses = classNames(
@@ -102,10 +95,10 @@ export default function ProfilePage(props) {
             </GridContainer>
             <div className={classes.description}>
               <p>
-                An artist of considerable range, Chet Faker — the name taken by
-                Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
-                and records all of his own music, giving it a warm, intimate
-                feel with a solid groove structure.{" "}
+                A lifelong engineer with experience in fields ranging from product development 
+                to sales and industries involved with technology, manufacturing and marketing.
+                I focus on working to design innovative, creative solutions for clients in 
+                various roles and industries.
               </p>
               <div className={classes.typo}>
                 <Quote
@@ -128,7 +121,6 @@ export default function ProfilePage(props) {
                       tabButton: "PHOTOGRAPHY",
                       tabIcon: Camera,
                       tabContent: (
-                        // <MyCarousel modal={true} images={photoData}/>
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={4}>
                             <img
@@ -295,10 +287,7 @@ export default function ProfilePage(props) {
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src="https://live.staticflickr.com/7822/39884966423_1fa301b24c_c.jpg"
-                              width="800"
-                              height="600"
-                              alt="20190110_132102"
+                              src="https://live.staticflickr.com/7822/39884966423_1fa301b24c_c.jpg" width="800" height="600" alt="20190110_132102"
                               // width="240" height="180" alt="20190105_104329"
                               className={navImageClasses}
                             />

@@ -48,13 +48,13 @@ export default function LandingPage(props) {
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>Your Story Starts Here.</h1>
               <h4>
-                Every landing page needs a small description after the big bold
-                title, that{"'"}s why we added this text here. Add here all the
-                information that can make you or your product create the first
-                impression.
+                Big Ideas need Big Solutions.  We are here to help make sure that your new
+                your new marketplace is built to grow with your
+                business. We will utilize cutting edge technologies to unlock the 
+                true potential of your business.
               </h4>
               <br />
-              <Button
+              {/* <Button
                 color="danger"
                 size="lg"
                 href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
@@ -63,7 +63,7 @@ export default function LandingPage(props) {
               >
                 <i className="fas fa-play" />
                 Watch video
-              </Button>
+              </Button> */}
             </GridItem>
           </GridContainer>
         </div>
